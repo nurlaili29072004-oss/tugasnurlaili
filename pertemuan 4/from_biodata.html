@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>biodata</title>
+</head>
+<body>
+    <from action="proses.html" method="post">
+        <label for="">Nama</label><input type="text" name="nama" id=""> <br>
+        <label for="">Tempat lahir</label><input type="text" name="tempat_lahir" id=""> <br>
+        <label for="">Tanggal lahir</label><input type="date" name="tanggal_lahir" id="">
+
+        <p>hobi (bisa lebih dari 1 pilihan)</p>
+        <label for="">Membaca</label><input type="checkbox" name="hobi[]" value="membaca" id=""> <br>
+        <label for="">Menulis</label><input type="checkbox" name="hobi[]" value="menulis" id=""> <br>
+        <label for="">Olahraga</label><input type="checkbox" name="hobi[]" value="olahraga" id=""> <br>
+
+        </p>jenis kelamin</p>
+        <label for="">Laki-laki</label><input type="radio" name="jenis_kelamin" value="laki-laki" id="">
+        <label for="">Perempuan</label><input type="radio" name="jenis_kelamin" value="perempuan" id=""> 
+
+        <p> deskripsikan tentang kamu </p>
+        <textarea name="deskripsi"></textarea>
+        
+        <select name="agama" id="">
+            <option value="1">islam</option>
+            <option value="2">katholik</option>
+            <option value="3">kristen</option>
+            <option value="4">hindu</option>
+            <option value="5">budha</option>
+        </select>
+        <input type="submit" value="simpan">
+        
+
+    </from>
+    
+</body>
+</html>
